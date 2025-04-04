@@ -64,6 +64,10 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
