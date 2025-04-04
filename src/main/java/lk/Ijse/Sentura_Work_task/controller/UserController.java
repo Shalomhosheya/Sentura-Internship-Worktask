@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("User/api/users")
+@RequestMapping("/api/users")
 public class UserController {
     private UserService userService;
 

@@ -20,7 +20,7 @@ public class UserService {
         RequestBody body = RequestBody.create(json, mediaType);
 
         Request request = new Request.Builder()
-                .url("https://your-weavy-cloud-url.com/api/users")
+                .url("https://8015b5dbc0724d38882ac90397c27649.weavy.io")
                 .addHeader("Authorization", "bearer wys_iO6FOzlS1IIY63Bd2B5YaFaeaA8kyt0gz1GC")
                 .post(body)
                 .build();
