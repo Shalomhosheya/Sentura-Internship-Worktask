@@ -21,7 +21,7 @@ public class UserService {
 
         Request request = new Request.Builder()
                 .url("https://your-weavy-cloud-url.com/api/users")
-                .addHeader("Authorization", "Bearer YOUR_WEAVY_TOKEN")
+                .addHeader("Authorization", "bearer wys_iO6FOzlS1IIY63Bd2B5YaFaeaA8kyt0gz1GC")
                 .post(body)
                 .build();
 
